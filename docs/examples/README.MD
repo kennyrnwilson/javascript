@@ -1,3 +1,5 @@
+# Examples
+
 | Example                       | Description                 |
 | ---------------------------------------| ----------------------------|
 | [Destructuring](./Destructuring.js)       | Shows how to destructure arrays and objects. |
