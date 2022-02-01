@@ -2,24 +2,11 @@
 
 This repository contains information pertaining to working with JavaScript in an enterprise environment. The information is split into section that cover.
 
-* Notes 
-* Howtos
+* [Notes](./docs/notes/README.MD) 
+* [Howtos](./docs/howtos/README.MD)
 * Cheat sheets
 * Tutorials
-* Example Code
-
-Let us cover each in turn
-
-## Notes
- * [ES6 Modules](./docs/notes/modules.md)
-
-## How-To
- * [Run and Debug JavaScript](./docs/howtos/run-and-debug.md)
-
-## Tutorials
-
-## Example Code
- * [Destructuring](./docs/examples/Destructuring.js)
+* [Examples](./docs/examples/README.MD)
 
 
 
