@@ -9,5 +9,22 @@ This repository contains information pertaining to working with JavaScript in an
 * [Examples](./docs/examples/README.MD)
 
 
-
+## Notes
 Each .js file is a standalone piece of code that we can run and debug. The project is setup such that each file can be run and debugged simply by opening the file in visual studio code and pressing F5
+
+| Note                    | Description                 |
+| ---------------------------------------| ----------------------------|
+| [Modules](./docs/notes/modules.md)       | Describes how JavaScript modules work |
+
+## Howtos
+
+| Howto                    | Description                 |
+| ---------------------------------------| ----------------------------|
+| [Run And Debug](./docs/howtos/run-and-debug.md)       | Describes how to run and debug JavaScript files |
+
+## Examples
+
+| Example                       | Description                 |
+| ---------------------------------------| ----------------------------|
+| [Destructuring](./docs/examples/Destructuring.js)       | Shows how to destructure arrays and objects. |
+| [ES6 Modules](./docs/examples//es6-modules/)  | Shows how to create and consume ES6 Modules |
