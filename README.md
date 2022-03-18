@@ -22,6 +22,12 @@ Each .js file is a standalone piece of code that we can run and debug. The proje
 | ---------------------------------------| ----------------------------|
 | [Run And Debug](./docs/howtos/run-and-debug.md)       | Describes how to run and debug JavaScript files |
 
+
+## Cheat Sheets
+| ChearSheet                    | Description                 |
+| ---------------------------------------| ----------------------------|
+| [Functional Programming](./docs/cheatsheets/FunctionalProgramming.js)       | Describes LINQ style funtional programming in JavaScript |
+
 ## Examples
 
 | Example                       | Description                 |
