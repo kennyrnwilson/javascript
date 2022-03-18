@@ -24,9 +24,10 @@ Each .js file is a standalone piece of code that we can run and debug. The proje
 
 
 ## Cheat Sheets
-| ChearSheet                    | Description                 |
+| CheatSheet                    | Description                 |
 | ---------------------------------------| ----------------------------|
 | [Functional Programming](./docs/cheatsheets/FunctionalProgramming.js)       | Describes LINQ style funtional programming in JavaScript |
+| [Arrays As Stacks and Queues](./docs/cheatsheets/StacksAndQueue.js)       | Describes pop/push and shift/unshift |
 
 ## Examples
 
