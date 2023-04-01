@@ -60,73 +60,15 @@ If we start our [Server.js](./Server.js) from the terminal and then Chrome using
 **Note**
 > You must kill all Chrome instances and only have the one running that has the debug arguments. Then you can attach and debug.
 
-
-
-
-
-
-
-
-This project shows how to debug both server side and client side JavaScript applications using Visual Studio Code. The server is a simple Express based Node.js web server and the client is a single html page with a button that executes some JavaScript. To see how to setup look at [Basic Front-End and Back-End](../basic-front-end-and-back-end/README.MD). For detailed information on VS Code Debugging see [Debugging](https://code.visualstudio.com/Docs/editor/debugging).
-
-
-## Debugging the Server
-We can debug the server in two ways
-
- * Launch it from Visual Studio Code
- * Launch it from the terminal and attach Visual Studio Code
-
- Let us set up debug targets for both scenarios.
-
-### Launching the Server.js in the Debugger
-If we ask VS Code to add a debug configuration and select Node.js when the current file is not a JavaScript file it will add a generic configuration to launch and debug any open JavaScript file. 
+## Launch to a Web Application
+Simply add the following configuration to launch.json
 
 ```json
-{
-    "configurations": [
         {
-            "type": "node",
+            "name": "Launch Chrome",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${file}"
-        }
-    ]
-}
+            "type": "chrome",
+            "url": "http://localhost:3000/app/Index.html",
+            "webRoot": "${workspaceFolder}"
+        },
 ```
-If we run this configuration while our [Server.js](./Server.js) is open in the editor then Visual Studio Code will start this file in a Node process with debug turned on and then attach itself to said process as the debug client. 
-
-
-
-
-## Launching the Server from the command line and attaching debugger
-Run the server with debug in node as follows 
-
-```
-node --inspect Server.js
-```
-
-Node add a second target to the launch.json configurations 
-
-```json
-        {
-            "name": "Attach Server",
-            "port": 9229,
-            "request": "attach",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
-        }
-```
-Use this to attach to the running process.
-
-## Debugging the Client
-We can debug the client in two ways
-
- * Launch it from Visual Studio Code
- * Open Chrome with special debug flags and attach
-
- ### Launch it in Chrome
