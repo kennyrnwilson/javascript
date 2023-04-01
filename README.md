@@ -37,6 +37,7 @@ Each .js file is a standalone piece of code that we can run and debug. The proje
 | ---------------------------------------| ----------------------------|
 | [Basic Front End and Back End](./docs/examples/basic-front-end-and-back-end/)       | A simple web server that can server a front-end app |
 | [Basic Client Server Debugging](./docs/examples/basic-client-server-debugging/README.MD/)       | How to debug Browser and Node.js  |
+| [Basic Server Debugging With Nodemon](./docs/examples/client-server-debugging-with-nodemon/README.MD)       | How to debug Browser and Node.js  |
 
 
 | [Destructuring](./docs/examples/Destructuring.js)       | Shows how to destructure arrays and objects. |

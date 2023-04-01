@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Nodemon",   
+            "program": "${file}",
+            "request": "launch",
+            "runtimeExecutable": "nodemon",
+            "runtimeArgs": ["--inspect"],
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node" 
+        },
+        {
+            "name": "Attach Nodemon",   
+            "program": "${file}",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "runtimeArgs": ["--inspect"],
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        } 
+    ]
+}
