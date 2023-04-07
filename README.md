@@ -1,4 +1,19 @@
-# JavaScipt
+# The JavaScript language and its eco system.
+
+This repository contains documentation and sample projects that elucidate features of the JavaScript language and its eco system.
+
+## Notes
+
+
+
+| Note                    | Description                 |
+| ---------------------------------------| ----------------------------|
+| [Modules](./docs/notes/modules.md)       | Describes how JavaScript modules work |
+
+
+
+
+code that descibes the JavaScript language and its eco system. 
 
 This repository contains information pertaining to working with JavaScript in an enterprise environment. The information is split into section that cover.
 
@@ -9,12 +24,7 @@ This repository contains information pertaining to working with JavaScript in an
 * [Examples](./docs/examples/README.MD)
 
 
-## Notes
-Each .js file is a standalone piece of code that we can run and debug. The project is setup such that each file can be run and debugged simply by opening the file in visual studio code and pressing F5
 
-| Note                    | Description                 |
-| ---------------------------------------| ----------------------------|
-| [Modules](./docs/notes/modules.md)       | Describes how JavaScript modules work |
 
 ## Howtos
 
